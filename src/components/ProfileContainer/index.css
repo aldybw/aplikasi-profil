@@ -1,0 +1,17 @@
+.profile-container {
+  background-color: #373737;
+  text-align: center;
+  padding: 40px;
+}
+
+.custom-img-profile {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name,
+.job {
+  color: #fff;
+}

@@ -1,0 +1,27 @@
+.story-information {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  padding: 100px 10%;
+}
+
+.my-story,
+.personal-information {
+  flex-basis: 50%;
+  margin: 0 15px;
+}
+
+.bold-text {
+  font-weight: 600;
+}
+
+.personal-information p {
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 576px) {
+  .story-information {
+    display: flex;
+    flex-direction: column;
+  }
+}
